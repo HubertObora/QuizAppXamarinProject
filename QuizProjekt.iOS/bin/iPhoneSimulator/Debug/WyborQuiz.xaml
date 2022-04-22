@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizProjekt.WyborQuiz"
+             x:Name="myContentPage"
+             BackgroundColor ="Beige">
+    <StackLayout>
+        <ListView ItemTapped="myListView_ItemTapped" x:Name="myListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame BorderColor="Black" Grid.Row="0" Grid.Column="0" Padding="0" Margin="15" CornerRadius="30">
+                            <Label FontAttributes="Italic" Text="{Binding Kategoria}" BackgroundColor="{Binding BgColor}" FontSize="36" HorizontalTextAlignment="Center" HeightRequest="80" VerticalTextAlignment="Center"></Label>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Clicked="Button_ClickedPowrot" Text="Powrót" FontSize="20" Margin="25"></Button>
+    </StackLayout>
+</ContentPage>

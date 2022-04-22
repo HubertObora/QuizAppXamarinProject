@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizProjekt.MainPage"
+             BackgroundColor="	#fdf498"
+             Title="Quiz Aplikacja"
+             >
+
+    <StackLayout >
+        <Frame BackgroundColor="	#7bc043" Padding="24" CornerRadius="0">
+            <Label Text="Witaj w aplikacji z quizami" HorizontalTextAlignment="Center" TextColor="Black" FontSize="36" FontAttributes="Italic"/>
+        </Frame>
+        <Button BorderColor="Black" BorderWidth="2" Clicked="Button_ClickedStart" CornerRadius="20" WidthRequest="400" BackgroundColor="	#7bc043" Margin="20" Text="Start" HorizontalOptions="Center" FontSize="36" FontAttributes="Italic"/>
+        <Button BorderColor="Black" BorderWidth="2" Clicked="Button_ClickedInfo" CornerRadius="20" WidthRequest="300" BackgroundColor="	#f37736" Margin="20" Text="Informacje" HorizontalOptions="Center" FontSize="36" FontAttributes="Italic"/>
+        <Button BorderColor="Black" BorderWidth="2" Clicked="Button_ClickedWyjscie" CornerRadius="20" WidthRequest="300" BackgroundColor="	#ee4035" Margin="20" Text="Wyjście" HorizontalOptions="Center" FontSize="36" FontAttributes="Italic"/>
+    </StackLayout>
+
+</ContentPage>

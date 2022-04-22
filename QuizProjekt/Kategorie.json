@@ -1,0 +1,26 @@
+[
+  {
+    "kategoria": "Motoryzacja",
+    "bgColor": "#ec0075"
+  },
+  {
+    "kategoria": "Matematyka",
+    "bgColor": "#ff5b00"
+  },
+  {
+    "kategoria": "Sport",
+    "bgColor": "#f6884c"
+  },
+  {
+    "kategoria": "Geografia",
+    "bgColor": "#ffdf2b"
+  },
+  {
+    "kategoria": "Informatyka",
+    "bgColor": "#2ce5b7"
+  },
+  {
+    "kategoria": "Angielski",
+    "bgColor": "#F7D8BA"
+  }
+]

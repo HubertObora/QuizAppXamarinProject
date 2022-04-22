@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuizProjekt.StronaQuiz"
+             BackgroundColor="#fdf498">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid Margin="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0"
+                       FontAttributes="Italic"
+                       FontSize="26"
+                       HeightRequest="100"
+                   Grid.ColumnSpan="2"
+                   x:Name="pytanie"
+                       VerticalOptions="Center"
+               HorizontalOptions="Center" />
+                <Button Grid.Column="0"
+                        WidthRequest="200"
+                        BackgroundColor="White"
+                        HeightRequest="50"
+                        BorderWidth="3"
+                        BorderColor="Black"
+                        CornerRadius="5"
+                   Grid.Row="1"
+                        FontSize="18"
+                   x:Name="odpowiedz1"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+                        Clicked="odpowiedz1_Clicked"/>
+                <Button Grid.Column="1"
+                   Grid.Row="1"
+                        BackgroundColor="White"
+                        BorderWidth="3"
+                        BorderColor="Black"
+                        CornerRadius="5"
+                        WidthRequest="200"
+                        HeightRequest="50"
+                        FontSize="18"
+                   x:Name="odpowiedz2"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+                        Clicked="odpowiedz2_Clicked"/>
+                <Button Grid.Column="0"
+                   Grid.Row="2"
+                        BorderWidth="3"
+                        BackgroundColor="White"
+                        BorderColor="Black"
+                        CornerRadius="5"
+                        WidthRequest="200"
+                        HeightRequest="50"
+                   x:Name="odpowiedz3"
+                        FontSize="18"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+                        Clicked="odpowiedz3_Clicked"/>
+                <Button Grid.Column="1"
+                   Grid.Row="2"
+                        BorderWidth="3"
+                        BackgroundColor="White"
+                        BorderColor="Black"
+                        CornerRadius="5"
+                        WidthRequest="200"
+                        HeightRequest="50"
+                   x:Name="odpowiedz4"
+                        FontSize="18"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" 
+                        Clicked="odpowiedz4_Clicked"/>
+            </Grid>
+            <Button BackgroundColor="#f37736" BorderWidth="2" BorderColor="Black" CornerRadius="20" Clicked="Button_ClickedDalej" x:Name="dalejButton" Text="Dalej" FontSize="20" Margin="25"></Button>
+            <Label Text="" x:Name="podsumowanie1" FontSize="36" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+            <Label Text="" x:Name="podsumowanie2" FontSize="34" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"></Label>
+            <Button BackgroundColor="#ee4035" BorderWidth="2" BorderColor="Black" CornerRadius="20" Clicked="Button_ClickedWyjscie" Text="Powrót" FontSize="20" Margin="30"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

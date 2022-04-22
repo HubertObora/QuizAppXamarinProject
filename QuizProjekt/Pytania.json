@@ -1,0 +1,110 @@
+[
+  {
+    "kategoria": "Motoryzacja",
+    "trescpytania": "Która z tych marek jest koreańska?",
+    "odpowiedzi": [ "Honda", "Toyota", "Kia", "Subaru" ],
+    "poprawnaOdpowiedz": 2
+  },
+  {
+    "kategoria": "Motoryzacja",
+    "trescpytania": "Która z tych marek jest japońska?",
+    "odpowiedzi": [ "Hyundai", "Deawoo", "Kia", "Nissan" ],
+    "poprawnaOdpowiedz": 3
+  },
+  {
+    "kategoria": "Motoryzacja",
+    "trescpytania": "Która z tych marek jest niemiecka?",
+    "odpowiedzi": [ "Mercedes-Benz", "Toyota", "Kia", "Subaru" ],
+    "poprawnaOdpowiedz": 0
+  },
+  {
+    "kategoria": "Motoryzacja",
+    "trescpytania": "Która z tych marek jest Włoska?",
+    "odpowiedzi": [ "Mercedes-Benz", "Toyota", "Fiat", "Subaru" ],
+    "poprawnaOdpowiedz": 2
+  },
+  {
+    "kategoria": "Motoryzacja",
+    "trescpytania": "Która z tych marek jest szwedzka?",
+    "odpowiedzi": [ "Volvo", "Toyota", "Fiat", "Subaru" ],
+    "poprawnaOdpowiedz": 0
+  },
+  {
+    "kategoria": "Motoryzacja",
+    "trescpytania": "Która z tych marek jest francuska?",
+    "odpowiedzi": [ "Honda", "Peugeot", "Kia", "Subaru" ],
+    "poprawnaOdpowiedz": 1
+  },
+  {
+    "kategoria": "Matematyka",
+    "trescpytania": "2+2*2=",
+    "odpowiedzi": [ "8", "4", "6", "10" ],
+    "poprawnaOdpowiedz": 2
+  },
+  {
+    "kategoria": "Matematyka",
+    "trescpytania": "2 do sześcianu =",
+    "odpowiedzi": [ "8", "4", "6", "10" ],
+    "poprawnaOdpowiedz": 0
+  },
+  {
+    "kategoria": "Matematyka",
+    "trescpytania": "7 do kwadratu=",
+    "odpowiedzi": [ "82", "49", "56", "42" ],
+    "poprawnaOdpowiedz": 1
+  },
+  {
+    "kategoria": "Matematyka",
+    "trescpytania": "3*3+3*3=",
+    "odpowiedzi": [ "27", "18", "9", "15" ],
+    "poprawnaOdpowiedz": 1
+  },
+  {
+    "kategoria": "Matematyka",
+    "trescpytania": "liczba Pi=",
+    "odpowiedzi": [ "2.7", "3.9", "3.14", "4.2" ],
+    "poprawnaOdpowiedz": 2
+  },
+  {
+    "kategoria": "Matematyka",
+    "trescpytania": "kwadratu o boku dlugosci 5 ma obwód:",
+    "odpowiedzi": [ "10", "15", "20", "25" ],
+    "poprawnaOdpowiedz": 2
+  },
+  {
+    "kategoria": "Informatyka",
+    "trescpytania": "Inkrementacja to:",
+    "odpowiedzi": [ "Zwiększenie o 1", "Zmniejszenie o 1", "łączenie łańuchów", "rozdzielanie łańcuchów" ],
+    "poprawnaOdpowiedz": 0
+  },
+  {
+    "kategoria": "Informatyka",
+    "trescpytania": "Konkatenacja to:",
+    "odpowiedzi": [ "Zwiększenie o 1", "Zmniejszenie o 1", "łączenie łańuchów", "rozdzielanie łańcuchów" ],
+    "poprawnaOdpowiedz": 2
+  },
+  {
+    "kategoria": "Informatyka",
+    "trescpytania": "1MB = ",
+    "odpowiedzi": [ "1024kB", "1024B", "1024gB", "1024tB" ],
+    "poprawnaOdpowiedz": 0
+  },
+  {
+    "kategoria": "Informatyka",
+    "trescpytania": "Dekrementacja to:",
+    "odpowiedzi": [ "Zwiększenie o 1", "Zmniejszenie o 1", "łączenie łańuchów", "rozdzielanie łańcuchów" ],
+    "poprawnaOdpowiedz": 1
+  },
+  {
+    "kategoria": "Informatyka",
+    "trescpytania": "Który język programowania powstał najwcześniej?",
+    "odpowiedzi": [ "Java", "C++", "Python", "Fortran" ],
+    "poprawnaOdpowiedz": 3
+  },
+  {
+    "kategoria": "Informatyka",
+    "trescpytania": "Windows należy do:",
+    "odpowiedzi": [ "Apple", "Microsoft", "IBM", "Meta" ],
+    "poprawnaOdpowiedz": 3
+  }
+]
